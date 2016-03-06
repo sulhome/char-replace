@@ -1,0 +1,37 @@
+{
+  "name": "charReplace",
+  "private": true,
+  "version": "0.1.0",
+  "description": "replace character in a given string",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "minami": "^1.1.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulhome/char-replace.git"
+  },
+  "keywords": [
+    "character",
+    "replace"
+  ],
+  "author": "Sul Aga (http://www.sulhome.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sulhome/char-replace/issues"
+  },
+  "homepage": "https://github.com/sulhome/char-replace",
+  "engines": {
+    "node": "5.x.x"
+  }
+}
+

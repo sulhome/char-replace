@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="charReplace.html">charReplace</a><ul class='methods'><li data-type='method'><a href="charReplace.html#replaceAll">replaceAll</a></li><li data-type='method'><a href="charReplace.html#replaceByCounter">replaceByCounter</a></li><li data-type='method'><a href="charReplace.html#replaceOne">replaceOne</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-charReplace.html">charReplace</a></li></ul>
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+    <section class="readme">
+        <article><h2>Modules</h2><dl>
+<dt><a href="#module_charReplace">charReplace</a></dt>
+<dd></dd>
+</dl>
+
+<h2>Classes</h2><dl>
+<dt><a href="#charReplace">charReplace</a></dt>
+<dd></dd>
+</dl>
+
+<p><a name="module_charReplace"></a></p>
+<h2>charReplace</h2><p><a name="charReplace"></a></p>
+<h2>charReplace</h2><p><strong>Kind</strong>: global class  </p>
+<ul>
+<li><a href="#charReplace">charReplace</a><ul>
+<li><a href="#new_charReplace_new">new charReplace()</a></li>
+<li><a href="#charReplace+replaceOne">.replaceOne(source, charToFind, charToReplaceBy)</a> ⇒ <code>String</code></li>
+<li><a href="#charReplace+replaceAll">.replaceAll(source, charToFind:, charToReplaceBy:)</a> ⇒ <code>string</code></li>
+<li><a href="#charReplace+replaceByCounter">.replaceByCounter(source, charToFind:, charToReplaceBy:, numberOfOccurrences)</a> ⇒ <code>string</code></li>
+</ul>
+</li>
+</ul>
+<p><a name="new_charReplace_new"></a></p>
+<h3>new charReplace()</h3><p>charReplace module</p>
+<p><a name="charReplace+replaceOne"></a></p>
+<h3>charReplace.replaceOne(source, charToFind, charToReplaceBy) ⇒ <code>String</code></h3><p>Replace one occurrence of charToFind with charToReplaceBy in source</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#charReplace">charReplace</a></code><br><strong>Returns</strong>: <code>String</code> - source after character been replaced  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><code>String</code></td>
+<td>the string we want to manipulate</td>
+</tr>
+<tr>
+<td>charToFind</td>
+<td><code>String</code></td>
+<td>the one character that will be searched in source</td>
+</tr>
+<tr>
+<td>charToReplaceBy</td>
+<td><code>String</code></td>
+<td>the character that will replace charToFind</td>
+</tr>
+</tbody>
+</table>
+<p><a name="charReplace+replaceAll"></a></p>
+<h3>charReplace.replaceAll(source, charToFind:, charToReplaceBy:) ⇒ <code>string</code></h3><p>Replace ALL occurrence of charToFind with charToReplaceBy in source</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#charReplace">charReplace</a></code><br><strong>Returns</strong>: <code>string</code> - source after character been replaced  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><code>String</code></td>
+<td>the string we want to manipulate</td>
+</tr>
+<tr>
+<td>charToFind:</td>
+<td><code>string</code></td>
+<td>the one character that will be searched in source</td>
+</tr>
+<tr>
+<td>charToReplaceBy:</td>
+<td><code>string</code></td>
+<td>the character that will replace charToFind</td>
+</tr>
+</tbody>
+</table>
+<p><a name="charReplace+replaceByCounter"></a></p>
+<h3>charReplace.replaceByCounter(source, charToFind:, charToReplaceBy:, numberOfOccurrences) ⇒ <code>string</code></h3><p>Replace number of occurrence of charToFind with charToReplaceBy in source based on numberOfOccurrences</p>
+<p><strong>Kind</strong>: instance method of <code><a href="#charReplace">charReplace</a></code><br><strong>Returns</strong>: <code>string</code> - source after character been replaced  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><code>String</code></td>
+<td>the string we want to manipulate</td>
+</tr>
+<tr>
+<td>charToFind:</td>
+<td><code>string</code></td>
+<td>the one character that will be searched in source</td>
+</tr>
+<tr>
+<td>charToReplaceBy:</td>
+<td><code>string</code></td>
+<td>the character that will replace charToFind</td>
+</tr>
+<tr>
+<td>numberOfOccurrences</td>
+<td></td>
+<td>the number of occurrences you want to replace</td>
+</tr>
+</tbody>
+</table></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Sun Mar 06 2016 19:36:32 GMT+0000 (GMT Standard Time) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
