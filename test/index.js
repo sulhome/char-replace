@@ -1,5 +1,5 @@
 'use strict';
-const charReplace = require('./../lib/charReplace.js');
+const charReplace = require('./../lib/char-replace.js');
 const assert = require('assert');
 
 describe('charReplace tests', () => {

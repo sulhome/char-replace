@@ -1,1 +1,1 @@
-module.exports = require('./lib/charReplace');
+module.exports = require('./lib/char-replace');

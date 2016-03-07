@@ -1,8 +1,3 @@
-## CharReplace module
-
-This is a small module that does one thing which is replacing a character in a string.
-
-## API Documentation
 ## Modules
 
 <dl>
@@ -17,9 +12,11 @@ This is a small module that does one thing which is replacing a character in a s
 <dd></dd>
 </dl>
 
+<a name="module_charReplace"></a>
+## charReplace
 <a name="charReplace"></a>
 ## charReplace
-**Kind**: global class
+**Kind**: global class  
 
 * [charReplace](#charReplace)
     * [new charReplace()](#new_charReplace_new)
@@ -35,8 +32,8 @@ charReplace module
 ### charReplace.replaceOne(source, charToFind, charToReplaceBy) ⇒ <code>String</code>
 Replace one occurrence of charToFind with charToReplaceBy in source
 
-**Kind**: instance method of <code>[charReplace](#charReplace)</code>
-**Returns**: <code>String</code> - source after character been replaced
+**Kind**: instance method of <code>[charReplace](#charReplace)</code>  
+**Returns**: <code>String</code> - source after character been replaced  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -44,17 +41,16 @@ Replace one occurrence of charToFind with charToReplaceBy in source
 | charToFind | <code>String</code> | the one character that will be searched in source |
 | charToReplaceBy | <code>String</code> | the character that will replace charToFind |
 
-**Example**
+**Example**  
 ```js
-// returns test;test
-charReplace.replaceOne('test%test','%',';')
+// returns test;testcharReplace.replaceOne('test%test','%',';')
 ```
 <a name="charReplace+replaceAll"></a>
 ### charReplace.replaceAll(source, charToFind:, charToReplaceBy:) ⇒ <code>string</code>
 Replace ALL occurrence of charToFind with charToReplaceBy in source
 
-**Kind**: instance method of <code>[charReplace](#charReplace)</code>
-**Returns**: <code>string</code> - source after character been replaced
+**Kind**: instance method of <code>[charReplace](#charReplace)</code>  
+**Returns**: <code>string</code> - source after character been replaced  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -62,17 +58,16 @@ Replace ALL occurrence of charToFind with charToReplaceBy in source
 | charToFind: | <code>string</code> | the one character that will be searched in source |
 | charToReplaceBy: | <code>string</code> | the character that will replace charToFind |
 
-**Example**
+**Example**  
 ```js
-// returns ;test;test;
-charReplace.replaceAll('%test%test%','%',';')
+// returns ;test;test;charReplace.replaceAll('%test%test%','%',';')
 ```
 <a name="charReplace+replaceByCounter"></a>
 ### charReplace.replaceByCounter(source, charToFind:, charToReplaceBy:, numberOfOccurrences) ⇒ <code>string</code>
 Replace number of occurrence of charToFind with charToReplaceBy in source based on numberOfOccurrences
 
-**Kind**: instance method of <code>[charReplace](#charReplace)</code>
-**Returns**: <code>string</code> - source after character been replaced
+**Kind**: instance method of <code>[charReplace](#charReplace)</code>  
+**Returns**: <code>string</code> - source after character been replaced  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -81,8 +76,7 @@ Replace number of occurrence of charToFind with charToReplaceBy in source based 
 | charToReplaceBy: | <code>string</code> | the character that will replace charToFind |
 | numberOfOccurrences | <code>number</code> | the number of occurrences you want to replace |
 
-**Example**
+**Example**  
 ```js
-// returns ;test;test%
-charReplace.replaceByCounter('%test%test%','%',';',2)
+// returns ;test;test%charReplace.replaceByCounter('%test%test%','%',';',2)
 ```

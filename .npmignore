@@ -31,6 +31,6 @@ node_modules
 docs
 jsdoc.json
 test
-README.md
 .idea
-
+.gitignore
+npm-debug.log

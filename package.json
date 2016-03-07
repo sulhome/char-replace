@@ -1,12 +1,8 @@
 {
-  "name": "charReplace",
-  "private": true,
+  "name": "char-replace",
   "version": "0.1.0",
   "description": "replace character in a given string",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
   },
   "devDependencies": {
@@ -24,7 +20,10 @@
     "character",
     "replace"
   ],
-  "author": "Sul Aga (http://www.sulhome.com)",
+  "author": {
+    "name": "Sul Aga",
+    "url": "http://www.sulhome.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sulhome/char-replace/issues"

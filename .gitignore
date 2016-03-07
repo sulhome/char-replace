@@ -30,5 +30,6 @@ build/Release
 node_modules
 .idea
 charReplace.md
+npm-debug.log
 
 
